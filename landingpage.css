@@ -1,0 +1,352 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 5px;
+  }
+  .nav-container{
+    justify-self: center;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    align-items: center;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+  }
+  .nav-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 700px;
+    justify-self: center;
+    /* position: relative; */
+  }
+  .tour-popup{
+    width: 80px;
+   color: #222222;
+   background-color: #fff;
+   position: absolute;
+   top: 50px;
+   left: -30px;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   border-radius: 5px;
+  }
+  .map-popup{
+    width: 95px;
+    color: #222222;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    gap: 2px;
+    border-radius: 5px;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+  }
+  .star-popup{
+    width: 120px;
+    color: #222222;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    gap: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 80px;
+    left: -9px;
+  }
+  
+  .nav-footer{
+    width: 700px;
+    background-color: #fff;
+    padding: 14px;
+    border-radius: 3px;
+    justify-self: center;
+    justify-content: space-between;
+  }
+  .div2{
+    background-color: #F7F8FC;
+    padding: 50px 200px;
+  }
+  .div3{
+    background-color: #FEFCFB;
+    padding: 50px 200px;
+  }
+  .div4{
+    background-color: #F7F8FC;
+    padding: 50px 200px; 
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .blog{
+    background-color: #FEFBFC;
+    padding: 50px 200px;
+    padding-bottom: 130px;
+
+  }
+  .button {
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; 
+    
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: #FA7436; 
+    border: 1px solid #FA7436;
+    border-radius:5px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap:10px;
+  }
+  .grid-img{
+    width: 180px;
+    height: 300px;
+  }
+  .div3-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    gap:10px;
+  }
+  .vacation-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    justify-self: center;
+    /* gap:10px; */
+  }
+  .card-5{
+    width: 350px;
+    height: 370px;
+    position: relative;
+  }
+  .card-6{
+    bottom: 40px;
+    position: relative;
+    width: 350px;
+    height: 428px;
+    right: 40px;
+  }
+  .card-7{
+    width: 240px;
+    height: 315px;
+    position: relative;
+    right: 25px;
+  }
+  .grid-item {
+    background-color: #fff;
+    padding: 20px;
+    
+  }
+  .subscribe{
+    width: 450px;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    justify-self: center;
+  }
+  .mail_div{
+    justify-self: center;
+    border-radius: 5px;
+    background-color: #FA7436;
+    width: 700px;
+    height: 200px;
+    position: relative;
+    bottom: 550px
+  }
+  .inp_mail_div{
+    justify-self: center;
+        border: 1px solid #DDD;
+        width: 350px;
+        background: white;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+  }
+  .blog-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:20px;
+    justify-self: center;
+    padding: 10px;
+  }
+  .fb{
+    width: 50px;
+  }
+  /* .blog-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+  } */
+  .footer-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+   gap:10px;
+   
+  }
+  .footer-item {
+  
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+   width: 120px;
+  }
+  .footergrid{
+    color: #666666;
+    font-size: 13px;
+  }
+  .footer-div{
+    background-color: #F7F8FC;
+    padding: 50px 200px;
+    padding-top: 150px;
+  }
+  h4{
+    font-size: 14px;
+  }
+  .copyright{
+    display: flex;
+        justify-content: space-between;
+        width: 750px;
+        justify-self: center;
+        font-size: 12px;
+        color: #666666;
+  }
+  hr{
+    width: 750px;
+    color: #999999;
+  }
+
+  /* media query */
+@media screen and (max-width:720px){
+  .nav-container{
+    width: 540px;
+  }
+  .nav-content{
+    width: 600px;
+  }
+   .nav-footer{
+    width: 500px;
+   }
+   .div2{
+    padding: 50px;
+  }
+  .grid-img{
+    width: 120px;
+    height: 170px;
+  }
+  .div3{
+    padding: 50px;
+  }
+  .div4{
+    padding: 50px; 
+  }
+  .card-5{
+    width: 210px;
+    height: 250px;
+  }
+  .card-6{
+    width: 210px;
+    height: 307px;
+  }
+  .card-7{
+    width: 175px;
+    height: 222px;
+    right: 49px;
+  }
+  .mail_div{
+    width: 500px;
+    bottom: 530px;
+  }
+  hr{
+    width: 580px;
+  }
+  .footer-div{
+    padding: 50px;
+    padding-top: 130px;
+
+  }
+  .copyright{
+    width: 570px;
+  }
+}  
+
+@media screen and (max-width:480px){
+    /* .grid-container{
+        grid-template-columns: auto auto;
+    } */
+  .nav-container {
+    width: 423px;
+  }
+  .trabook{
+    font-size: 13px;
+  }
+  ul{
+    font-size: 12px;
+  }
+  .nav-content {
+    width: 300px;
+  }
+  .nav-footer {
+    width: 400px;
+  }
+  .person_img{
+    display: none;
+  }
+  .div3-grid-container {
+    grid-template-columns: auto auto;
+  }
+  .vacation-container {
+    grid-template-columns: auto auto;
+  }
+  .card-7 {
+    left: 100px;
+    bottom: 70px;
+  }
+  .blog{
+    padding: 50px;
+    padding-bottom: 100px;
+  }
+  .blog-container {
+    grid-template-columns: auto auto;
+  }
+  .mail_div {
+    width: 400px;
+    bottom: 450px;
+  }
+  .footergrid {
+    font-size: 10px;
+  }
+  .fb{
+    width: 20px;
+  }
+  .footer-div {
+    padding: 15px;
+    padding-top: 100px;
+  }
+  hr {
+    width: 410px;
+  }
+  .subscribe{
+    width: 310px;
+  }
+  .copyright {
+    width: 420px;
+  }
+
+}
